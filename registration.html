@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Registration page</title>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <a href="./home.html">
+                <img src="./img/cereal-logo-transparent.png" alt="Logo">
+            </a>
+        </div>
+        <h1>
+            Cereal Killer Recipes - welcome to our blog
+        </h1>
+        <div class="links">
+            <a href="/login.html">
+                Sign in
+            </a>
+            <a href="/registration.html">
+                Sign up
+            </a>
+        </div>
+    </nav>
+
+
+    <form action="">
+
+        <div class="registration">
+            <h1>Register</h1>
+            <div class="inputfields">
+                <p>Please fill in this form to create an account.</p>
+                <img class="keyboard" src="/img/registration.png" alt="keyboard">
+                <br><br>
+                <label for="username"><b>Username</b></label>
+                <input type="text" placeholder="Enter Username" name="username" id="username" required><br><br>
+
+                <label for="email"><b>Email</b></label>
+                <input type="email" placeholder="Enter Email" name="email" id="email" required><br><br>
+
+                <label for="psw"><b>Password</b></label>
+                <input type="password" placeholder="Enter Password" name="psw" id="psw" required><br><br>
+                <button type="submit" class="button">Register</button>
+                <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
+            </div>
+
+
+            
+        </div>
+
+        <div class="containerSignin">
+            <p>Already have an account? <a class="button" href="/login.html">Sign in</a></p>
+        </div>
+    </form>
+
+    <aside>
+        <div class="sidelinks">
+            <br>
+            <img src="/img/profile.png" alt="profile">
+            <a href="/user-info.html">Profile</a><br><br>
+            <img src="/img/posts.png" alt="posts"> <br>
+            <a href="/home.html">Posts</a><br><br><br>
+        </div>
+    </aside>
+    <footer>
+        <div>
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-google"></a> <br>
+            <span>Contact us: info@cerealkillers.com</span>
+        </div>
+        <div class="copyright">
+            <br> &copy;2020 Cereal Killers
+        </div>
+    </footer>
+</body>
+
+</html>
