@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bogárétel Alapítvány - a rovarevés menő!</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+
+    <nav class="navbar">
+
+        <div class="logo">
+            <a href="./home.html">
+                <img class="logopic" src="./img/bogar_logo.png" alt="Logo">
+            </a>
+        </div>
+
+        <h1>
+            Bogárétel Alapítvány - A rovarevés menő!
+        </h1>
+
+        <div class="links">
+            <a href="">
+                Rólunk
+            </a>
+            <span>|</span>
+            <a href="">
+                Események
+            </a>
+            <span>|</span>
+            <a href="">
+                Receptek
+            </a>
+            <span>|</span>
+            <a href="">
+                Kapcsolat
+            </a>
+        </div>
+
+    </nav>
+
+    <div class="slideshow-container">
+
+        <div class="mySlides fade">
+            <img src="/img/bugfood1.png" style="width:100%">
+            <div class="text">Nem a legszebb...</div>
+        </div>
+
+        <div class="mySlides fade">
+
+            <img src="/img/bugfood2.png" style="width:100%">
+            <div class="text">...de igazán finom...</div>
+        </div>
+
+        <div class="mySlides fade">
+            <img src="/img/bugfood3.png" style="width:100%">
+            <div class="text">...és a Földet is megmentjük vele!</div>
+        </div>
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    </div>
+
+
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+    <script src="./js/main.js"></script>
+
+    <div class="social">
+        <a id="facebook" href=""><img src="/img/facebook-icon_128x128.png" alt="Facebook"></a>
+        <a id="youtube" href=""><img src="/img/youtube-icon_128x128.png" alt="Youtube"></a>
+        <a id="instagram" href=""><img src="/img/instagram-icon_128x128.png" alt="Instagram"></a>
+    </div>
+
+
+    <section class="content">
+        <div class="card">
+            <img class="cardPicture" src="/img/invitation.png" alt="invitation">
+            <h2>Gyere el!</h2>
+            <div class="divider"></div>
+            <span>Rendezvényeinken számos érdekes információt tudhatsz meg a bogárevés előnyeiről!</span>
+        </div>
+
+        <div class="card">
+            <img class="cardPicture" src="/img/donation.png" alt="donation">
+            <h2>Támogass minket!</h2>
+            <div class="divider"></div>
+            <span>Támogasd munkánkat adományoddal, hogy minél több ember értesüljön a jövő táplálékáról!</span>
+        </div>
+
+        <div class="card">
+            <img class="cardPicture" src="/img/newsletter.png" alt="newsletter">
+            <h2>Iratkozz fel!</h2>
+            <div class="divider"></div>
+            <span>Iratkozz fel hírlevelünkre, és naponta küldünk neked egy új bogárételreceptet!</span>
+        </div>
+
+    </section>
+
+    <footer>
+
+        <a href="https://bugfood.org/impresszum/" target="_blank">Impresszum</a>
+        <a href="https://bugfood.org/adatvedelmi-iranyelvek/" target="_blank">Adatvédelmi irányelvek</a>
+        <span>&copy;
+            <script>document.write(new Date().getFullYear())</script> Bogárétel Alapítvány. Minden jog
+            fenntartva.</span>
+
+    </footer>
+</body>
+
+</html>
